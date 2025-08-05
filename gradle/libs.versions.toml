@@ -9,3 +9,9 @@ slf4j-nop-version = "2.0.17"
 exposed-core = { module = "org.jetbrains.exposed:expose-core", version.ref = "exposed-version" }
 exposed-jdbc = { module = "org.jetbrains.exposed:expose-jdbc", version.ref = "exposed-version" }
 exposed-dao = { module = "org.jetbrains.exposed:expose-dao", version.ref = "exposed-version" }
+kotlin-test = { module = "org.jetbrains.kotlin:kotlin-test", version.ref = "kotlin-version" }
+postgres-driver = { module = "org.postgresql:postgresql", version.ref = "postgres-version" }
+slf4j-nop = { module = "org.slf4j:slf4j-nop", version.ref = "slf4j-nop-version" }
+
+[plugins]
+kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin-version" }
