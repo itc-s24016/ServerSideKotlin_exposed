@@ -1,0 +1,11 @@
+#バージョン管理とライブラリ依存関係
+[versions]
+kotlin-version = "2.1.21"
+exposed-version = "1.0.0-beta-5"
+postgres-version = "42.7.7"
+slf4j-nop-version = "2.0.17"
+
+[libraries]
+exposed-core = { module = "org.jetbrains.exposed:expose-core", version.ref = "exposed-version" }
+exposed-jdbc = { module = "org.jetbrains.exposed:expose-jdbc", version.ref = "exposed-version" }
+exposed-dao = { module = "org.jetbrains.exposed:expose-dao", version.ref = "exposed-version" }
